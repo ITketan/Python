@@ -5,4 +5,4 @@ print("initial empty tuple: ")
 print(tuple1)
 
 #creating tuple with the use of strings
-tuple2 = ('')
+tuple2 = ('python','for','programmers')
