@@ -12,8 +12,8 @@ if (age<80):
 
 #else if age between 80,100 then
 elif (age>=80 and age<=100):
-    print("Your are old")
+    print("You are old")
 
 #else (other case)
 else:
-    print("Your are very old")
+    print("You are very old")
