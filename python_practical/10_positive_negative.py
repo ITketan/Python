@@ -5,9 +5,13 @@ negative number" and convert into positive
 number else print that number
 (Getting value from the user)
 """
-value = int(input("Enter a value"))
+value = int(input("Enter a value : "))
 if(value < 0):
     print("Sorry this is negative number")
-elif(value < 0):
-    print("")
-    
+    value = abs(value)
+    print(value)
+elif(value == 0):
+    print("Number is zero")
+else:
+    print(value)
+
